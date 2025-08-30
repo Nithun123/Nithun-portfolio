@@ -20819,5 +20819,38 @@ body.white-version .rn-btn-ulderline {
 
 .whatsapp img, .git img, .gmail img, .linkedin img{
     width: 25px;
+
 }
+.profile{
+    background: #fff;
+   
+    border-radius: 10%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.pro-main{
+          /* margin: 10px 12px; */
+    line-height: 55px;
+    display: flex
+;
+    /* width: 60px; */
+    /* height: 60px; */
+    padding: 20px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    background: var(--background-color-1);
+    box-shadow: var(--shadow-1);
+}
+@media (max-width:669px){
+    .profile{
+        height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    }
+}
+
 /*# sourceMappingURL=../maps/style.css.map */
